@@ -1,97 +1,97 @@
- 'use strict'; 
+'use strict'; 
 
 let userName = prompt('What is your name?');
 alert('Welcome' +' '+ userName);
 document.write('Welcome' +' '+ userName);
 
-let counTry = prompt('Are you from Jordan?');
+let counTry = prompt('Am I from Jordan?');
   
 switch (counTry.toLowerCase()) {
     case 'yes':
     case 'y':
         //console.log(counTry);
-        alert('I\'m from Jordan Too!');
+        alert('True');
     break; 
          
      case 'no':
      case 'n':
          //console.log(counTry);
-         alert('Welcome where ever are you from!');
+         alert('wrong answer');
          break;
     default:
          console.log('type your answer in a small letters');
 }
    
 
-  let woRk = prompt('Are you working currently?');
+  let woRk = prompt('Am I working currently?');
   
   switch (woRk.toLowerCase()) {
     case 'yes':
     case 'y':
         //console.log(woRk);
-        alert('Good Luck!');
+        alert('A wrong answer, I still have no Job :(!');
     break; 
          
      case 'no':
      case 'n':
          //console.log(woRk);
-         alert('wish you find a job soon!');
+         alert('correct unfortunatelly! :D');
          break;
     default:
          console.log('type your answer in a small letters');
 }
 
-  let coLor = prompt('Is your favorite color Red?');
+  let coLor = prompt('Is My Favorite color Violet?');
 
 
   switch (coLor.toLowerCase()) {
     case 'yes':
     case 'y':
         //console.log(coLor);
-        alert('my favorite color is Red too!');
+        alert('Correct, I am in love with this color!');
     break; 
          
      case 'no':
      case 'n':
          //console.log(coLor);
-         alert('All colors are beautifu!');
+         alert('wrong answer, Violet is my favorite!');
          break;
     default:
          console.log('type your answer in a small letters');
 }
 
-  let aGe = prompt('Is your age more than 18?');
+  let aGe = prompt('Is my age seems to be more than 25?');
 
   switch (aGe.toLowerCase()) {
     case 'yes':
     case 'y':
         //console.log(aGe);
-        alert('So You are adult!');
+        alert('NO! Still 23');
     break; 
          
      case 'no':
      case 'n':
          //console.log(aGe);
-         alert('You are so young!');
+         alert('Exactly, I am 23');
          break;
     default:
          console.log('type your answer in a small letters');
 }
 
- let reAd = prompt('Do you love reading?');
+ let reAd = prompt('is it correct that my favorite hobby is Drwing?');
  
  
  switch (reAd.toLowerCase()) {
     case 'yes':
     case 'y':
         //console.log(reAd);
-        alert('Awesome!');
+        alert('Definetly wrong, I know nothing about it');
     break; 
          
      case 'no':
      case 'n':
          //console.log(reAd);
-         alert('I wish at least you try to!');
+         alert('Correct, My first I admire Reading the most!');
          break;
     default:
          console.log('type your answer in a small letters');
